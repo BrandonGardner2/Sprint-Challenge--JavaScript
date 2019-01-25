@@ -43,8 +43,11 @@ Edit this document to include your answers after each question. Make sure to lea
 4. Describe the four rules of the 'this' keyword.
 
    Window Binding - this when used in a global context will refer to the Window object.
+
    Implicit Binding- For functions called on objects, the object prior to the dot in the call will be 'this'.
+
    New Binding- When using a constructor function to create objects, this refers to the specific object being created.
+
    Explicit Binding- Using JavaScript's call or apply method to point to what 'this' should refer to.
 
 5. Why do we need super() in an extended class?
